@@ -1,5 +1,58 @@
 // Snippet for .js files
 {
+	"Comment Template Node" : {
+		"prefix": ["tempn", "templateNode"],
+		"body": [
+			"$LINE_COMMENT====================================================",
+			"$LINE_COMMENT Require",
+			"$LINE_COMMENT====================================================",
+			"",
+			"$LINE_COMMENT======================",
+			"$LINE_COMMENT Vendors",
+			"\n$0\n",
+			"$LINE_COMMENT======================",
+			"$LINE_COMMENT Own",
+			"\n\n",
+			"$LINE_COMMENT====================================================",
+			"$LINE_COMMENT Define",
+			"$LINE_COMMENT====================================================",
+			"\n\n",
+			"$LINE_COMMENT====================================================",
+			"$LINE_COMMENT Functions",
+			"$LINE_COMMENT====================================================",
+			"\n\n",
+			"$LINE_COMMENT====================================================",
+			"$LINE_COMMENT Main",
+			"$LINE_COMMENT====================================================",
+			"\n\n",
+			"$LINE_COMMENT====================================================",
+			"$LINE_COMMENT End",
+			"$LINE_COMMENT====================================================",
+		],
+		"description": "Comment Template"
+	},
+	"Comment Template JavaScript" : {
+		"prefix": ["tempj", "templateJS"],
+		"body": [
+			"$LINE_COMMENT====================================================",
+			"$LINE_COMMENT Define",
+			"$LINE_COMMENT====================================================",
+			"\n$0\n",
+			"$LINE_COMMENT====================================================",
+			"$LINE_COMMENT Functions",
+			"$LINE_COMMENT====================================================",
+			"\n\n",
+			"$LINE_COMMENT====================================================",
+			"$LINE_COMMENT Main",
+			"$LINE_COMMENT====================================================",
+			"\n\n",
+			"$LINE_COMMENT====================================================",
+			"$LINE_COMMENT End",
+			"$LINE_COMMENT====================================================",
+		],
+		"description": "Comment Template"
+	},
+	
 	// p5
 	"Add p5 base sketch" : {
 		"prefix": ["p", "ske", "sketch"],
@@ -15,6 +68,25 @@
 			"}\n",
 		],
 		"description": "Add a p5 base script"
+	},
+	"Setup p5" : {
+		"prefix": ["setup"],
+		"body": [
+			"function setup(){",
+			"\tcreateCanvas($1,$1);",
+			"\t$0",
+			"}\n"
+		],
+		"description": "Setup p5"
+	},
+	"Draw p5" : {
+		"prefix": ["draw"],
+		"body": [
+			"function draw(){",
+			"\t$0",
+			"}\n"
+		],
+		"description": "Draw p5"
 	},
 	// JavaScript
 	"Function" : {
