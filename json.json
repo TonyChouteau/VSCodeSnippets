@@ -17,7 +17,7 @@
 		],
 		"description": "Create the Json to make a snippet"
 	},
-	"Adding a snippet" : {
+	"Add a snippet" : {
 		"prefix": ["add", "snippet-add"],
 		"body": [
 			"\"$1\" : {",
@@ -28,6 +28,6 @@
 			"\t\"description\": \"$3\"",
 			"}",
 		],
-		"description": "Adding the Json to make a snippet"
+		"description": "Add the Json to make a snippet"
 	},
 }

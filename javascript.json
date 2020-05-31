@@ -1,0 +1,83 @@
+// Snippet for .js files
+{
+	// p5
+	"Add p5 base sketch" : {
+		"prefix": ["p", "ske", "sketch"],
+		"body": [
+			"",
+			"function setup(){",
+			"\tcreateCanvas($1,$1);",
+			"\tbackground(0);",
+			"}",
+			"",
+			"function draw(){",
+			"\t$0",
+			"}\n",
+		],
+		"description": "Add a p5 base script"
+	},
+	// JavaScript
+	"Function" : {
+		"prefix": ["f", "fun", "function"],
+		"body": [
+			"function $1($2) {",
+			"\t$0",
+			"}"
+		],
+		"description": "Add function"
+	},
+	// Express
+	"Express" : {
+		"prefix": ["express"],
+		"body": [
+			"const express = require(\"express\");",
+			"const fs = require('fs');",
+			"var bodyParser = require('body-parser');",
+			"",
+			"const PORT = $1;",
+			"const app = express();",
+			"var router = express.Router();",
+			"",
+			"router.use(function(req, res, next) {",
+			"\tres.header(\"Access-Control-Allow-Origin\", \"*\");",
+			"\tres.header(\"Origin, X-Requested-With, Content-Type, Accept\");",
+			"\tnext();",
+			"});",
+			"",
+			"router.use(bodyParser.urlencoded({ extended: true }));",
+			"",
+			"router.get('/', function(req, res) {",
+			"\t$0",
+			"});",
+			"",
+			"app.use('/', router);",
+			"",
+			"app.listen(PORT, function () {",
+			"\tconsole.log(\"App listening on port \"+PORT+\"!\");",
+			"});",
+			""
+		],
+		"description": "Add express"
+	},
+	"Require fs" : {
+		"prefix": ["fs"],
+		"body": [
+			"const fs = require(\"fs\");"
+		],
+		"description": "Require fs module"
+	},
+	"Require body-parser" : {
+		"prefix": ["body"],
+		"body": [
+			"const bodyParser = require(\"body-parser\");"
+		],
+		"description": "Require body-parser module"
+	},
+	"Require express" : {
+		"prefix": ["express"],
+		"body": [
+			"const express = require(\"express\");"
+		],
+		"description": "Require express module"
+	}
+}
