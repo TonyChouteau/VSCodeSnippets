@@ -1,0 +1,21 @@
+// Snippet for .css files
+{
+	"Full page html & body" : {
+		"prefix": ["full"],
+		"body": [
+			"html, body {",
+			"\twidth: 100%;",
+			"\theight: 100%;\n",
+			"\tmargin: 0;",
+			"\tpadding: 0;",
+			"}\n",
+			"body {",
+			"\tdisplay: flex;",
+			"\tflex-direction: column;",
+			"\talign-items: center;",
+			"\tjustify-content: center;",
+			"}\n$0"
+		],
+		"description": "Create the css to make html and body div full page"
+	}
+}
