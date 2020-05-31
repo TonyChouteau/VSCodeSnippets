@@ -1,0 +1,35 @@
+// Snippet for .html files
+{
+	"Create a base .html file" : {
+		"prefix": ["create", "html"],
+		"body": [
+			"<!DOCTYPE html>",
+			"<html lang=\"en\">",
+			"<head>",
+			"\t<meta charset=\"UTF-8\">",
+			"\t<title>$1</title>",
+			"\t<link href=\"./index.css\" rel=\"stylesheet\">",
+			"\t<script src=\"./index.js\" type=\"text/javascript\"></script>",
+			"</head>",
+			"<body>",
+			"\t$0",
+			"</body>",
+			"</html>"
+		],
+		"description": ""
+	},
+	"Adding css balise" : {
+		"prefix": ["css"],
+		"body": [
+			"\t<link href=\"./index.css\" rel=\"stylesheet\">"
+		],
+		"description": "Adding css balise to an html file"
+	},
+	"Adding js balise" : {
+		"prefix": ["css"],
+		"body": [
+			"\t<script src=\"./index.js\" type=\"text/javascript\"></script>"
+		],
+		"description": "Adding js balise to an html file"
+	}
+}

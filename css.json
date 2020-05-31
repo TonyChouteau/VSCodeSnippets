@@ -1,7 +1,7 @@
 // Snippet for .css files
 {
 	"Full page html & body" : {
-		"prefix": ["full"],
+		"prefix": ["create", "full"],
 		"body": [
 			"html, body {",
 			"\twidth: 100%;",

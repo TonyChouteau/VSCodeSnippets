@@ -1,5 +1,6 @@
 // Snippet for .css files
 {
+	// Snippet 
 	"Create a snippet" : {
 		"prefix": ["create", "snippet-create"],
 		"body": [
